@@ -130,7 +130,7 @@ button:hover {
         border: 3px solid #36a500;
     }
     .tetris {
-        width: 250px;
+        width: 270px;
         height: 450px;
         display: flex;
         overflow: hidden;
@@ -144,7 +144,12 @@ button:hover {
         height: 25px;
         border: 1px solid #36a500;
     }
-     .controls {
+    .controls {
         display: none;
+    }
+    .score {
+        width: 150px;
+        height: 35px;
+        font-size: 18px;
     }
 }
