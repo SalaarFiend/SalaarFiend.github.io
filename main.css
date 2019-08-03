@@ -144,4 +144,7 @@ button:hover {
         height: 25px;
         border: 1px solid #36a500;
     }
+     .controls {
+        display: none;
+    }
 }
