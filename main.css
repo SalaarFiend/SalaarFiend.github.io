@@ -112,3 +112,36 @@ button:hover {
     background-image: url(https://stmed.net/sites/default/files/tetris-hd-wallpapers-33758-4930924.jpg);
     background-repeat: no-repeat;
 }
+
+@media (max-width:768px) {
+    .modal {
+        width: 250px;
+        height: 250px;
+    }
+    button {
+        width: 150px;
+    }
+    .main {
+        margin: 25px auto;
+        position: relative;
+        overflow: hidden;
+        width: 250px;
+        height: 350px;
+        border: 3px solid #36a500;
+    }
+    .tetris {
+        width: 250px;
+        height: 450px;
+        display: flex;
+        overflow: hidden;
+        flex-wrap: wrap;
+        position: absolute;
+        bottom: 0;
+        background-color: black;
+    }
+    .excel {
+        width: 25px;
+        height: 25px;
+        border: 1px solid #36a500;
+    }
+}
