@@ -116,10 +116,42 @@ button:hover {
 @media (max-width:768px) {
     .modal {
         width: 250px;
-        height: 250px;
+        height: 400px;
+        top: 300px;
     }
     button {
         width: 150px;
+    }
+    .buttons_sensor {
+        justify-content: space-between;
+    }
+    .sens {
+        margin-top: 9px;
+        margin-bottom: 9px;
+        margin-right: 40px;
+        margin-left: 20px;
+    }
+    .button_up {
+        width: 80px;
+        height: 80px;
+        margin-left: 164px;
+        margin-right: 164px;
+        margin-top: 9px;
+        margin-bottom: 9px;
+        position: relative;
+    }
+    .button_down {
+        width: 80px;
+        height: 80px;
+    }
+    .button_left {
+        width: 80px;
+        height: 80px;
+    }
+    .button_right {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
     }
     .main {
         margin: 25px auto;
@@ -151,5 +183,7 @@ button:hover {
         width: 150px;
         height: 35px;
         font-size: 18px;
+        margin-bottom: 15px;
+        margin-top: 15px;
     }
 }
