@@ -88,6 +88,14 @@ button:hover {
     border-radius: 40px;
 }
 
+.sens {
+    display: none;
+}
+
+.button_up {
+    display: none;
+}
+
 .score {
     font-family: 'Saira Stencil One', cursive;
     font-size: 25px;
@@ -126,12 +134,14 @@ button:hover {
         justify-content: space-between;
     }
     .sens {
+        display: inline-block;
         margin-top: 9px;
         margin-bottom: 9px;
         margin-right: 40px;
         margin-left: 20px;
     }
     .button_up {
+        display: block;
         width: 80px;
         height: 80px;
         margin-left: 164px;
