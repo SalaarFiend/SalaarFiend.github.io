@@ -1,5 +1,6 @@
 let overlay = document.querySelector('.overlay');
 let modal = document.querySelector('.modal');
+let sens = document.querySelector('.buttons_sensor')
 let speed = 0;
 
 modal.addEventListener('click', function(e) {
@@ -417,6 +418,20 @@ function startGame(params) {
             move();
         } else if (e.keyCode == 38) { //keyCode == 38 - стрелка вверх
             flag = true;
+
+
+            if (e.target.classList.contains('button_up')) {
+                flag = true;
+            } else if (e.target.classList.contains('button_down')) {
+                move();
+            } else if (e.target.classList.contains('button_right')) {
+                getNewState(1);
+            } else if (e.target.classList.contains('button_left')) {
+                getNewState(-1);
+            }
+
+
+
 
             let figureNew = [
                 document.querySelector(`[posX = "${+coordinates1[0] + mainArr[currentFigure][rotate + 2][0][0]}"][posY = "${
