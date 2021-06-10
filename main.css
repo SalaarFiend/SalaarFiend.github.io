@@ -130,6 +130,7 @@ button:hover {
     }
     .buttons_sensor {
         justify-content: space-between;
+        margin-top: 100px;
     }
     .sens {
         display: inline-block;
@@ -167,7 +168,6 @@ button:hover {
         overflow: hidden;
         width: 250px;
         height: 350px;
-        border: 3px solid #36a500;
     }
     .tetris {
         width: 270px;
